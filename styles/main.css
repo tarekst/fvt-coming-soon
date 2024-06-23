@@ -42,6 +42,7 @@ p:not(.slogan),
 .icon,
 .icon-list,
 h1,
+h2,
 .right,
 .mainInfo {
   width: auto;
@@ -138,8 +139,16 @@ h1,
   margin-left: 1em;
 }
 
+.container .right .mainInfo h2 {
+  font-size: 1.7em;
+  margin-left: 1em;
+}
+
 @media screen and (max-width: 576px) {
   .container .right .mainInfo h1 {
+    margin-left: 0;
+  }
+  .container .right .mainInfo h2 {
     margin-left: 0;
   }
 }
@@ -242,6 +251,7 @@ h1,
 }
 
 h1,
+h2,
 .slogan,
 button,
 .form {
